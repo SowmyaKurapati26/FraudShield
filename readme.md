@@ -140,8 +140,3 @@ Contributions are welcome!
 ---
 
 ```
-
----
-
-Would you like me to also make a **short catchy tagline + badges (e.g., Python, Streamlit, License, Stars)** at the top to make it even more GitHub-pro style?
-```
