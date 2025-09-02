@@ -1,4 +1,3 @@
-```markdown
 <p align="center">
   <img src="docs/banner.png" alt="FraudShield Banner" width="800">
 </p>
