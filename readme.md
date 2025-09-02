@@ -4,6 +4,9 @@
   <b>AI-powered Credit Card Fraud Detection</b><br>
   Detect and flag suspicious transactions using machine learning — complete with a sleek Streamlit interface.
 </p>
+<p align="center">
+  🔗 <a href="https://sowmyakurapati26-fraudshield-app-odjhuc.streamlit.app/" target="_blank"><b>Live Demo</b></a>
+</p>
 
 ---
 
