@@ -1,14 +1,12 @@
 ```markdown
----
-
 <p align="center">
-  <img src="docs/banner.png" alt="FraudShield" width="800">
+  <img src="docs/banner.png" alt="FraudShield Banner" width="800">
 </p>
 
 <h1 align="center"> 🛡️ FraudShield </h1>
 
-<p align="center">  
-  <b>AI-powered Credit Card Fraud Detection</b>  
+<p align="center">
+  <b>AI-powered Credit Card Fraud Detection</b><br>
   Detect and flag suspicious transactions using machine learning — complete with a sleek Streamlit interface.
 </p>
 
@@ -25,14 +23,14 @@ Trained on anonymized transaction features, FraudShield can analyze uploaded dat
 
 ## ✨ Core Features
 
-| Feature                     | Description                                                                 |
-|-----------------------------|-----------------------------------------------------------------------------|
-| 🔎 ML Pipeline              | Preprocessing → SMOTE balancing → Model Training (LogReg, RF, XGBoost)     |
-| 📊 Balanced Metrics         | Evaluated with ROC-AUC, Precision, Recall, and F1-score                     |
-| 🏆 Best Model               | XGBoost model saved as `fraud_model.pkl` for deployment                     |
-| 🖥️ User Interface           | Streamlit app for CSV upload and real-time predictions                      |
-| ⚡ Deployment Ready          | Lightweight architecture — data in, fraud diagnosis out                     |
-| 🔮 Future Extensions        | SHAP/LIME explainability, REST APIs, CI/CD, analyst dashboards               |
+| Feature              | Description                                                                 |
+|----------------------|-----------------------------------------------------------------------------|
+| 🔎 ML Pipeline       | Preprocessing → SMOTE balancing → Model Training (LogReg, RF, XGBoost)     |
+| 📊 Balanced Metrics  | Evaluated with ROC-AUC, Precision, Recall, and F1-score                     |
+| 🏆 Best Model        | XGBoost model saved as `fraud_model.pkl` for deployment                     |
+| 🖥️ User Interface    | Streamlit app for CSV upload and real-time predictions                      |
+| ⚡ Deployment Ready   | Lightweight architecture — data in, fraud diagnosis out                     |
+| 🔮 Future Extensions | SHAP/LIME explainability, REST APIs, CI/CD, analyst dashboards               |
 
 ---
 
@@ -42,14 +40,16 @@ Trained on anonymized transaction features, FraudShield can analyze uploaded dat
 
 FraudShield/
 ├── data/
-│   └── creditcard.csv          # Dataset (ignored in repo)
+│   └── creditcard.csv         # Dataset (ignored in repo)
 ├── models/
-│   └── fraud\_model.pkl         # Trained XGBoost model
+│   └── fraud\_model.pkl        # Trained XGBoost model
 ├── notebooks/
-│   └── fraud\_detection.ipynb   # Training & evaluation notebook
-├── app.py                      # Streamlit application
-├── requirements.txt            # Dependencies
-├── README.md                   # Project documentation
+│   └── fraud\_detection.ipynb  # Training & evaluation notebook
+├── app.py                     # Streamlit application
+├── requirements.txt           # Dependencies
+├── README.md                  # Project documentation
+└── docs/
+└── banner.png             # Project banner
 
 ````
 
@@ -133,8 +133,5 @@ Contributions are welcome!
 ---
 
 ## 📧 Contact
-
 👩‍💻 **Author**: Sowmya Kurapati
 ---
-
-```
