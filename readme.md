@@ -1,7 +1,3 @@
-<p align="center">
-  <img src="docs/banner.png" alt="FraudShield Banner" width="800">
-</p>
-
 <h1 align="center"> 🛡️ FraudShield </h1>
 
 <p align="center">
@@ -47,8 +43,6 @@ FraudShield/
 ├── app.py                     # Streamlit application
 ├── requirements.txt           # Dependencies
 ├── README.md                  # Project documentation
-└── docs/
-└── banner.png             # Project banner
 
 ````
 
